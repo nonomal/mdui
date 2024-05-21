@@ -26,6 +26,7 @@ import { snackbar } from 'mdui';
     <a slot="header" href="">显示所有支持从 mdui 导入的函数</a>
     <pre class="language-js"><code>import {
   $,
+  dialog,
   alert,
   confirm,
   prompt,
@@ -35,6 +36,9 @@ import { snackbar } from 'mdui';
   getColorFromImage,
   setColorScheme,
   removeColorScheme,
+  loadLocale,
+  setLocale,
+  getLocale,
   throttle,
   observeResize,
   breakpoint
@@ -113,11 +117,14 @@ import { breakpoint } from 'mdui/functions/breakpoint.js';
 import { confirm } from 'mdui/functions/confirm.js';
 import { dialog } from 'mdui/functions/dialog.js';
 import { getColorFromImage } from 'mdui/functions/getColorFromImage.js';
+import { getLocale } from 'mdui/functions/getLocale.js';
 import { getTheme } from 'mdui/functions/getTheme.js';
+import { loadLocale } from 'mdui/functions/loadLocale.js';
 import { observeResize } from 'mdui/functions/observeResize.js';
 import { prompt } from 'mdui/functions/prompt.js';
 import { removeColorScheme } from 'mdui/functions/removeColorScheme.js';
 import { setColorScheme } from 'mdui/functions/setColorScheme.js';
+import { setLocale } from 'mdui/functions/setLocale.js';
 import { setTheme } from 'mdui/functions/setTheme.js';
 import { snackbar } from 'mdui/functions/snackbar.js';
 import { throttle } from 'mdui/functions/throttle.js';</code></pre>
